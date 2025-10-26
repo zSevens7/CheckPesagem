@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\obj\Debug\net8.0-windows\CheckPesagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\obj\Debug\net8.0-windows\CheckPesagem.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\obj\Debug\net8.0-windows\CheckPesagem.AssemblyInfo.cs
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\obj\Debug\net8.0-windows\CheckPesagem.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\obj\Debug\net8.0-windows\CheckPesagem.sourcelink.json
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\bin\Debug\net8.0-windows\CheckPesagem.exe
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\bin\Debug\net8.0-windows\CheckPesagem.deps.json
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\bin\Debug\net8.0-windows\CheckPesagem.runtimeconfig.json
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\bin\Debug\net8.0-windows\CheckPesagem.dll
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\bin\Debug\net8.0-windows\CheckPesagem.pdb
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\obj\Debug\net8.0-windows\CheckPesagem.dll
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\obj\Debug\net8.0-windows\refint\CheckPesagem.dll
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\obj\Debug\net8.0-windows\CheckPesagem.pdb
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\obj\Debug\net8.0-windows\CheckPesagem.genruntimeconfig.cache
+C:\Users\Usuario\Documents\progamacao\CheckPesagem\obj\Debug\net8.0-windows\ref\CheckPesagem.dll

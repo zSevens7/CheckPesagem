@@ -1,0 +1,36 @@
+# PatchNotes - CheckPesagem
+Data: 26/10/2025
+
+## [Atualização] Cadastro de Perfil
+- Criado modal de **PerfilForm** com campos:
+  - Nome
+  - Data de Nascimento
+  - Altura
+  - Peso
+  - Cintura (opcional)
+- Corrigido layout do modal para não cortar textos
+- Salvar perfil diretamente em **JSON**
+- Exibir perfil e IMC na tela principal
+- Garantido que botão "Criar Perfil" funcione corretamente
+
+## [Atualização] Registro Diário
+- Criado modal de **RegistroForm** com campos:
+  - Data
+  - Peso
+  - Cintura (opcional)
+- Aceita o perfil atual para vincular o registro
+- Salvar registros em **JSON** (Data/registros.json)
+- Corrigido layout do modal para não cortar textos
+- Botão de adicionar registro verifica se perfil existe
+
+## [Interface/UX]
+- Tela principal (MainForm) atualizada com:
+  - Botão "Criar Perfil"
+  - Botão "Adicionar Registro"
+  - Labels para exibir nome do perfil e IMC
+- Ajustes visuais básicos para campos e botões
+- Mensagens de erro amigáveis ao usuário
+
+## [Observações]
+- Perfis ainda não permitem múltiplos usuários nem troca de perfil
+- Futuro: melhorar lógica de perfil, histórico completo e gráficos
