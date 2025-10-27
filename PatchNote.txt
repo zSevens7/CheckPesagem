@@ -34,3 +34,79 @@ Data: 26/10/2025
 ## [Observações]
 - Perfis ainda não permitem múltiplos usuários nem troca de perfil
 - Futuro: melhorar lógica de perfil, histórico completo e gráficos
+
+
+---
+
+# PatchNotes - CheckPesagem
+**Data:** 27/10/2025
+
+## [Nova Funcionalidade] Sistema de Temas
+- Tema Claro/Noturno implementado em toda a aplicação
+- Botão de alternância de tema (🌙/☀️) em todos os forms principais
+- Cores adaptativas para todos os controles (botões, labels, painéis)
+- Estado do tema mantido durante a sessão
+
+## [Nova Funcionalidade] Sistema de Ajuda
+- Botão "❓ Ajuda" adicionado na tela principal
+- Guia completo de uso do aplicativo
+- Explicação do fluxo inicial (criar perfil → gerenciar → adicionar registros)
+- Dicas sobre formato de números decimais (uso de vírgula)
+
+## [Interface/UX - Melhorias Visuais]
+
+### Tela Principal (MainForm)
+- Subheader informativo mostrando perfil atual carregado
+- Design modernizado com painel arredondado para informações do perfil
+- Cores para classificação do IMC (verde, amarelo, laranja, vermelho)
+- Layout responsivo com redimensionamento adequado
+
+### Formulários
+- **Criar Perfil:** Design completo com ícones e validações
+- **Gerenciar Perfis:** Interface refinada com lista e botões de ação
+- **Adicionar Registro:** Design com ícones (📅, ⚖️, 📏) e validações
+
+## [Nova Funcionalidade] Sistema de Gráficos e Tabela
+- Controle de Tabela implementado com visual moderno
+- Sistema de filtros por período (30 dias, 90 dias, ano, mês)
+- Estatísticas em tempo real (média, variação, quantidade de registros)
+- Botão "📊 Ver Gráficos" para alternância entre visualizações
+- Três tipos de análise: Peso, IMC e Cintura
+
+## [Arquitetura e Serviços]
+
+### Novos Serviços Criados
+- **EstatisticasService:** Cálculos de médias, progresso e dados para gráficos
+- Métodos para análise temporal (por ano, mês, período)
+- Cálculo de variação percentual e estatísticas descritivas
+
+### Modelos Atualizados
+- **Perfil:** Adicionados métodos `CalcularIMC(double peso)` e `ClassificarIMC()`
+- **Registro:** Mantida estrutura simples (Data, Peso, Cintura)
+
+## [Observações e Próximos Passos]
+✅ **Funcionalidades Completas**
+- Sistema completo de perfis (criar, gerenciar, excluir)
+- Registros diários vinculados a perfis
+- Interface com temas e ajuda
+- Estrutura básica de tabela e gráficos
+
+🐛 **Problemas Conhecidos**
+- Filtragem na tabela: Necessita ajustes na lógica de aplicação de filtros
+- Visual dos gráficos: Interface básica precisa ser refinada
+- Navegação entre tabela/gráficos: Funcional mas pode ser melhorada
+
+🔄 **Próximas Melhorias Planejadas**
+- Correção da filtragem na tabela de registros
+- Refinamento visual dos gráficos e tabela
+- Sistema de metas e objetivos pessoais
+- Exportação de relatórios em PDF/Excel
+- Lembretes para pesagem regular
+- Sincronização entre dispositivos
+
+## [Notas Técnicas]
+- Migração para .NET 8.0 completa
+- Remoção de dependências problemáticas (ScottPlot)
+- Implementação de gráficos nativos usando controles Windows Forms
+- Sistema de arquivos JSON para persistência de dados
+- Arquitetura em camadas (Models, Services, Forms, Controls)

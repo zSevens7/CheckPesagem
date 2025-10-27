@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CheckPesagem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+159309e74786be7b59b44e25ce6418f23e69aaf7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ebcb62ca7c44a1e8a4aa52c47ce831c7558e4a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CheckPesagem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CheckPesagem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
